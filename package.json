@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "register": "node src/registerCommands.js"
+    "register": "node src/registerCommands.js",
+    "test": "node --check src/index.js && node --check src/registerCommands.js"
   },
   "engines": {
     "node": ">=18.17"
