@@ -1,0 +1,20 @@
+{
+  "name": "mdomail",
+  "version": "1.0.0",
+  "description": "Bot de modmail para Discord con transferencia de tickets y despliegue en Railway o Render",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.1.0",
+    "discord-api-types": "^0.37.69",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
